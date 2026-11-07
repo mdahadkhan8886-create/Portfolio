@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ahad Khan — Computer Science Scholar | Creative Engineer</title>
+  <meta name="description" content="Portfolio of Ahad Khan: ISC Scholar (Class 10: 89.8%, Class 12: 91.25% with 98 in CS). Core in Java, Python, Linux CLI, Competitive Math, Video Editing & AI Frontiers.">
+  <meta name="author" content="Ahad Khan">
+  
+  <!-- Fonts Matching Reference Site Exactly -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Poppins:wght@300;400;500;600;700;800&family=Roboto+Flex:opsz,wdth,wght@8..144,25..151,100..1000&family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       LOADING SCREEN (Counter Preloader 0 -> 100%)
+       ======================================================================== -->
+  <div class="loading-screen" aria-live="polite">
+    <span class="loading-counter">0</span>
+    <div>
+      <span class="loading-name-reveal">Ahad Khan</span>
+    </div>
+    <div class="loading-bar-track">
+      <div class="loading-bar-fill"></div>
+    </div>
+  </div>
+
+  <!-- Noise Film Grain Overlay -->
+  <div class="noise-overlay" aria-hidden="true"></div>
+
+  <!-- ========================================================================
+       HEADER & STAGGERED MENU
+       ======================================================================== -->
+  <header class="staggered-menu-header">
+    <a href="#hero" class="sm-logo">
+      <span class="sm-logo-dot"></span>
+      AK.
+    </a>
+
+    <button class="sm-toggle" aria-label="Toggle navigation menu">
+      <span class="sm-toggle-line">Menu +</span>
+    </button>
+  </header>
+
+  <!-- Sliding Staggered Menu Panel -->
+  <div class="staggered-menu-wrapper">
+    <div class="sm-backdrop"></div>
+    <div class="staggered-menu-panel">
+      <ul class="sm-panel-list">
+        <li>
+          <a href="#hero" class="sm-panel-item">
+            <span class="sm-item-num">01</span>
+            <span>Home</span>
+          </a>
+        </li>
+        <li>
+          <a href="#introduction" class="sm-panel-item">
+            <span class="sm-item-num">02</span>
+            <span>Philosophy</span>
+          </a>
+        </li>
+        <li>
+          <a href="#consequences" class="sm-panel-item">
+            <span class="sm-item-num">03</span>
+            <span>Consequences</span>
+          </a>
+        </li>
+        <li>
+          <a href="#projects" class="sm-panel-item">
+            <span class="sm-item-num">04</span>
+            <span>Milestones</span>
+          </a>
+        </li>
+        <li>
+          <a href="#experience" class="sm-panel-item">
+            <span class="sm-item-num">05</span>
+            <span>Experience</span>
+          </a>
+        </li>
+        <li>
+          <a href="#terminal" class="sm-panel-item">
+            <span class="sm-item-num">06</span>
+            <span>Terminal CLI</span>
+          </a>
+        </li>
+        <li>
+          <a href="#contact" class="sm-panel-item">
+            <span class="sm-item-num">07</span>
+            <span>Contact</span>
+          </a>
+        </li>
+      </ul>
+
+      <div class="sm-socials">
+        <h4 class="sm-socials-title">Connect</h4>
+        <ul class="sm-socials-list">
+          <li><a href="mailto:ahadkhan.dev@gmail.com" class="sm-socials-link">Email</a></li>
+          <li><a href="https://github.com" target="_blank" class="sm-socials-link">GitHub</a></li>
+          <li><a href="https://linkedin.com" target="_blank" class="sm-socials-link">LinkedIn</a></li>
+          <li><a href="https://x.com" target="_blank" class="sm-socials-link">Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- ======================================================================
+         HERO SECTION (Liquid Chrome GLSL Shader + Variable Font Text Pressure)
+         ====================================================================== -->
+    <section id="hero">
+      <!-- Pure WebGL Fluid Flame/Smoke Canvas -->
+      <canvas id="fluid-canvas"></canvas>
+
+      <!-- Vignette and Ambient Radial Glow -->
+      <div class="hero-vignette" aria-hidden="true"></div>
+      <div class="hero-glow-ambient" aria-hidden="true"></div>
+
+      <!-- 20 Floating Dust Particles -->
+      <div class="dust-container" aria-hidden="true"></div>
+
+      <!-- Top-Left Status Pill -->
+      <div class="hero-pill-top">
+        <span class="sm-logo-dot"></span>
+        <span class="hero-pill-text">Shipping Ideas Into Reality.</span>
+      </div>
+
+      <!-- Center Box: Variable Text Pressure Name -->
+      <div class="hero-center-box">
+        <h1 class="text-pressure-title" aria-label="Ahad Khan">
+          <span data-char="A">A</span>
+          <span data-char="H">H</span>
+          <span data-char="A">A</span>
+          <span data-char="D">D</span>
+          <span style="display:inline-block; width:0.25em;"></span>
+          <span data-char="K">K</span>
+          <span data-char="H">H</span>
+          <span data-char="A">A</span>
+          <span data-char="N">N</span>
+        </h1>
+        <p class="hero-tagline-ember">Crafting Interfaces That People Remember.</p>
+      </div>
+
+      <!-- Bottom-Left Bio -->
+      <div class="hero-bio-bottom">
+        <p>
+          Computer Science Scholar &amp; Creative Technologist engineering fast, algorithmic, and motion-driven digital products.
+        </p>
+      </div>
+
+      <!-- Bottom-Right Action Buttons -->
+      <div class="hero-cta-bottom">
+        <a href="#projects" class="btn-ember-primary">
+          <span>Explore Milestones</span>
+          <span class="btn-circle-arrow">
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+              <path d="M1 11L11 1M11 1H3M11 1V9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span>
+        </a>
+        <a href="#contact" class="btn-ember-outline">Let's Talk →</a>
+      </div>
+
+      <!-- Bottom Scroll Cue -->
+      <div class="hero-scroll-cue">
+        <span>SCROLL</span>
+        <div class="scroll-line-beam"></div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 2: INTRODUCTION // SCROLL-EXPAND "THE PHILOSOPHY"
+         ====================================================================== -->
+    <section id="introduction">
+      <div class="scroll-expand">
+        <div class="scroll-expand__track">
+          <div class="scroll-expand__stage">
+            <div class="scroll-expand__frame">
+              <div class="scroll-expand__media"></div>
+              <div class="scroll-expand__scrim"></div>
+              
+              <div class="scroll-expand__overlay">
+                <div style="display:flex; flex-direction:column; align-items:center; gap:1.5rem; max-width:850px; padding:0 1.5rem;">
+                  <div style="display:inline-flex; align-items:center; gap:0.5rem; padding:0.4rem 1rem; border-radius:999px; border:1px solid rgba(252,107,47,0.3); background:rgba(252,107,47,0.1); backdrop-filter:blur(10px);">
+                    <span class="sm-logo-dot"></span>
+                    <span style="color:var(--ember); font-size:11px; font-weight:600; letter-spacing:0.25em; text-transform:uppercase; font-family:var(--font-mono);">The Philosophy</span>
+                  </div>
+                  
+                  <p style="font-family:var(--font-josefin), sans-serif; font-size:clamp(1.2rem, 3.2vw, 2.4rem); font-weight:500; color:#ffffff; line-height:1.4; text-align:center;">
+                    “I believe great software is born at the intersection of engineering precision and design intuition. Every pixel, every interaction, every line of code is an opportunity to create something that moves people.”
+                  </p>
+
+                  <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:1rem; margin-top:0.75rem;">
+                    <span class="tag-pill-sm">ISC CS 98/100</span>
+                    <span class="tag-pill-sm">Python &amp; Java Core</span>
+                    <span class="tag-pill-sm">Competitive Math</span>
+                    <span class="tag-pill-sm">Football &amp; Video Editing</span>
+                  </div>
+                </div>
+              </div>
+
+              <h2 class="scroll-expand__title">The Philosophy</h2>
+              <div class="scroll-expand__hint">
+                <span class="scroll-expand__hint-dot"></span>
+                <span>Scroll to expand</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION: CONSEQUENCES MANIFESTO (Bold Editorial Transition)
+         ====================================================================== -->
+    <section id="consequences" class="consequences-section">
+      <div class="consequences-ambient-flare" aria-hidden="true"></div>
+      
+      <div class="consequences-inner">
+        <div class="consequences-tag-wrap">
+          <span class="sm-logo-dot"></span>
+          <span class="consequences-tag">Core Principle &amp; Reality</span>
+        </div>
+
+        <h2 class="consequences-headline">
+          “LIFE IS ALL ABOUT<br>
+          <span class="consequences-highlight">CONSEQUENCES</span>”
+        </h2>
+
+        <p class="consequences-subtext">
+          Every line of code committed, every theorem proven in mathematics, every pass delivered on the pitch, and every cut timed in the editing timeline sets events in motion. Actions dictate outcomes. Architecture dictates endurance.
+        </p>
+
+        <div class="consequences-pillars-grid">
+          <div class="consequence-card">
+            <div class="consequence-card-icon">📐</div>
+            <div class="consequence-card-title">In Mathematics</div>
+            <div class="consequence-card-desc">Every premise yields an inescapable mathematical truth. Logic never lies; the proof is absolute.</div>
+          </div>
+
+          <div class="consequence-card">
+            <div class="consequence-card-icon">⚽</div>
+            <div class="consequence-card-title">On The Pitch</div>
+            <div class="consequence-card-desc">A split-second decision in midfield decides the match. Positioning and commitment determine victory.</div>
+          </div>
+
+          <div class="consequence-card">
+            <div class="consequence-card-icon">⚡</div>
+            <div class="consequence-card-title">In Computation</div>
+            <div class="consequence-card-desc">An algorithm's time complexity O(N) dictates whether software scales to millions or breaks under load.</div>
+          </div>
+
+          <div class="consequence-card">
+            <div class="consequence-card-icon">🤖</div>
+            <div class="consequence-card-title">In AI Frontiers</div>
+            <div class="consequence-card-desc">Subtle parameter adjustments turn unconstrained entropy into structured reasoning and intelligence.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 3: SELECTED PROJECTS & MILESTONES (Exact xv component styling)
+         ====================================================================== -->
+    <section id="projects">
+      <div class="projects-container">
+        
+        <div class="section-head-wrap">
+          <h2 class="section-big-title">Selected Milestones</h2>
+          <p class="section-sub-title">
+            From ISC Board scholastic excellence to algorithmic rigor, competitive math, and emerging AI parameters.
+          </p>
+        </div>
+
+        <div class="project-card-wrap">
+          
+          <!-- Card 1: Unified Academic & Scholastic Excellence (ISC & ICSE) -->
+          <div class="project-card">
+            <div class="card-ambient-cyan"></div>
+            <div class="card-ambient-pink"></div>
+            
+            <div class="project-grid-inner">
+              <div>
+                <div class="project-tagline-top">ISC &amp; ICSE National Board Distinction</div>
+                <h3 class="project-title-large">Scholastic &amp; Computer Science Excellence</h3>
+                <p class="project-desc-body">
+                  Demonstrated unbroken scholastic rigor across both national board examinations. Scored <strong>91.25% Aggregate</strong> with <strong>98 / 100 in Computer Science</strong> in Class 12th (ISC), alongside <strong>89.80% Aggregate</strong> with <strong>96 / 100 in Computer Science</strong> in Class 10th (ICSE). Deeply trained in Java Object-Oriented architecture, advanced recursion, binary search trees, and complex algorithmic matrices.
+                </p>
+                <div class="project-tags-list">
+                  <span class="tag-pill-sm">ISC 91.25% (98 CS)</span>
+                  <span class="tag-pill-sm">ICSE 89.80% (96 CS)</span>
+                  <span class="tag-pill-sm">JAVA OOP</span>
+                  <span class="tag-pill-sm">DATA STRUCTURES</span>
+                  <span class="tag-pill-sm">ALGORITHMIC RIGOR</span>
+                </div>
+                <div style="display:flex; gap:1rem;">
+                  <a href="#terminal" class="btn-ember-primary" style="padding:0.65rem 1.4rem; font-size:0.75rem;">
+                    View CLI Records →
+                  </a>
+                </div>
+              </div>
+
+              <!-- Right Mockup Visual: Dual Scorecard & Code -->
+              <div class="mockup-preview-card">
+                <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid rgba(255,255,255,0.08); padding-bottom:0.75rem; margin-bottom:1rem; font-family:var(--font-mono); font-size:0.75rem; color:var(--ash);">
+                  <span>NATIONAL BOARD SCORECARDS</span>
+                  <span style="color:var(--ember); font-weight:bold;">ISC / ICSE</span>
+                </div>
+                
+                <div style="display:grid; grid-template-columns:1fr 1fr; gap:0.75rem; margin-bottom:1rem; text-align:center;">
+                  <div style="background:rgba(252,107,47,0.08); border:1px solid rgba(252,107,47,0.3); border-radius:12px; padding:0.85rem;">
+                    <div style="font-family:var(--font-mono); font-size:0.68rem; color:var(--ember); font-weight:bold; margin-bottom:0.25rem;">CLASS 12 (ISC)</div>
+                    <div style="font-family:var(--font-display); font-size:1.75rem; font-weight:800; color:#fff;">98 <span style="font-size:0.9rem; color:var(--ember);">CS</span></div>
+                    <div style="font-family:var(--font-mono); font-size:0.68rem; color:var(--ash);">91.25% Aggregate</div>
+                  </div>
+                  
+                  <div style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); border-radius:12px; padding:0.85rem;">
+                    <div style="font-family:var(--font-mono); font-size:0.68rem; color:var(--cloud); font-weight:bold; margin-bottom:0.25rem;">CLASS 10 (ICSE)</div>
+                    <div style="font-family:var(--font-display); font-size:1.75rem; font-weight:800; color:#fff;">96 <span style="font-size:0.9rem; color:var(--ash);">CS</span></div>
+                    <div style="font-family:var(--font-mono); font-size:0.68rem; color:var(--ash);">89.80% Aggregate</div>
+                  </div>
+                </div>
+
+                <div style="font-family:var(--font-mono); font-size:0.72rem; line-height:1.6; color:#9494a8; background:#050508; border-radius:8px; padding:0.65rem 0.85rem;">
+                  <span style="color:var(--ember);">class</span> <span style="color:#60a5fa;">BinarySearchTree</span> { <span style="color:var(--ash);">/* Java DSA Distinction */</span> }
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Competitive Math & Discrete Logic -->
+          <div class="project-card">
+            <div class="card-ambient-cyan"></div>
+            <div class="card-ambient-pink"></div>
+            
+            <div class="project-grid-inner">
+              <div>
+                <div class="project-tagline-top">First Principles &amp; Algorithms</div>
+                <h3 class="project-title-large">Competitive Mathematics &amp; Logic</h3>
+                <p class="project-desc-body">
+                  Deep passion for competitive mathematics, combinatorics, discrete reasoning, and number theory. Treating mathematics as the core bedrock of computational efficiency, pattern recognition, and algorithm design.
+                </p>
+                <div class="project-tags-list">
+                  <span class="tag-pill-sm">COMBINATORICS</span>
+                  <span class="tag-pill-sm">PRIME SIEVE</span>
+                  <span class="tag-pill-sm">NUMBER THEORY</span>
+                  <span class="tag-pill-sm">PYTHON</span>
+                </div>
+              </div>
+
+              <!-- Right Mockup: Live Sieve Calculator -->
+              <div class="mockup-preview-card">
+                <div style="font-family:var(--font-mono); font-size:0.75rem; color:var(--ember); margin-bottom:0.75rem; font-weight:bold;">
+                  ⚡ LIVE PRIME SIEVE RUNNER
+                </div>
+                <div style="display:flex; gap:0.5rem; margin-bottom:0.75rem;">
+                  <input type="number" id="math-inp" value="30" min="2" max="100" style="flex:1; background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); border-radius:8px; padding:0.4rem 0.65rem; color:#fff; font-family:var(--font-mono); font-size:0.8rem; outline:none;">
+                  <button id="btn-math-calc" class="btn-ember-primary" style="padding:0.4rem 0.9rem; font-size:0.75rem;">Run Sieve</button>
+                </div>
+                <div id="math-out" style="font-family:var(--font-mono); font-size:0.75rem; color:#67e8f9; background:#050508; border-radius:8px; padding:0.75rem; min-height:48px; line-height:1.5;">
+                  Click 'Run Sieve' to compute primes...
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: AI Parameters & Neural Frontiers -->
+          <div class="project-card">
+            <div class="card-ambient-cyan"></div>
+            <div class="card-ambient-pink"></div>
+            
+            <div class="project-grid-inner">
+              <div>
+                <div class="project-tagline-top">Emerging Horizons</div>
+                <h3 class="project-title-large">AI Parameters &amp; Neural Frontiers</h3>
+                <p class="project-desc-body">
+                  Investigating new parameters of generative AI, large language models, token sampling temperature, context caching, and agentic rails. Actively moving from framework user to neural architect.
+                </p>
+                <div class="project-tags-list">
+                  <span class="tag-pill-sm">AI PARAMETERS</span>
+                  <span class="tag-pill-sm">TEMPERATURE SAMPLING</span>
+                  <span class="tag-pill-sm">AGENTIC RAILS</span>
+                  <span class="tag-pill-sm">ML HORIZONS</span>
+                </div>
+              </div>
+
+              <!-- Right Mockup: Live Temperature Visualizer -->
+              <div class="mockup-preview-card">
+                <div style="display:flex; justify-content:space-between; font-family:var(--font-mono); font-size:0.75rem; color:var(--ash); margin-bottom:0.5rem;">
+                  <span>LLM TEMPERATURE: <strong id="temp-num" style="color:var(--ember);">0.7</strong></span>
+                  <span>Range: 0.0 — 1.5</span>
+                </div>
+                <input type="range" id="temp-slider" min="0" max="1.5" step="0.1" value="0.7" style="width:100%; accent-color:var(--ember); margin-bottom:0.75rem;">
+                <div id="temp-text" style="font-family:var(--font-mono); font-size:0.75rem; color:var(--cloud); background:#050508; border-radius:8px; padding:0.75rem; min-height:48px; line-height:1.5;">
+                  <strong>Balanced Reasoning</strong> — Standard exploratory temperature for conversational agents.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4: Football // District & State Level Athletics -->
+          <div class="project-card">
+            <div class="card-ambient-cyan"></div>
+            <div class="card-ambient-pink"></div>
+            
+            <div class="project-grid-inner">
+              <div>
+                <div class="project-tagline-top">Competitive Athletics &amp; Leadership</div>
+                <h3 class="project-title-large">Football: District &amp; State Level</h3>
+                <p class="project-desc-body">
+                  Competed in football at the <strong>District Level</strong> and earned prestigious selection for the <strong>State Level Team</strong>. Operating as an attacking playmaker/winger has cultivated rapid spatial awareness, endurance, resilience, and the tactical instinct to make split-second strategic decisions under intense game pressure.
+                </p>
+                <div class="project-tags-list">
+                  <span class="tag-pill-sm">STATE LEVEL SELECTION</span>
+                  <span class="tag-pill-sm">DISTRICT LEVEL PLAYER</span>
+                  <span class="tag-pill-sm">PLAYMAKER / WINGER</span>
+                  <span class="tag-pill-sm">SPATIAL TACTICS</span>
+                  <span class="tag-pill-sm">SPLIT-SECOND DECISIONS</span>
+                </div>
+              </div>
+
+              <!-- Right Mockup: Tactical Football Pitch & Selection Stats -->
+              <div class="mockup-preview-card">
+                <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid rgba(255,255,255,0.08); padding-bottom:0.75rem; margin-bottom:1rem; font-family:var(--font-mono); font-size:0.75rem; color:var(--ash);">
+                  <span>MATCHDAY PROFILE // LEVEL STATUS</span>
+                  <span style="color:#10b981; font-weight:bold;">● STATE SELECTED</span>
+                </div>
+
+                <!-- Tactical Mini Pitch Graphic -->
+                <div style="width:100%; height:110px; background:linear-gradient(180deg, #092c18 0%, #051a0e 100%); border:1px solid rgba(16,185,129,0.3); border-radius:10px; position:relative; overflow:hidden; display:flex; align-items:center; justify-content:center; margin-bottom:1rem;">
+                  <div style="position:absolute; top:0; bottom:0; left:50%; width:1px; background:rgba(255,255,255,0.2);"></div>
+                  <div style="position:absolute; width:45px; height:45px; border:1px solid rgba(255,255,255,0.2); border-radius:50%;"></div>
+                  <div style="position:absolute; top:42%; left:72%; width:24px; height:24px; border-radius:50%; background:var(--ember); color:#fff; font-weight:800; font-size:0.65rem; display:flex; align-items:center; justify-content:center; box-shadow:0 0 12px var(--ember); animation:sePulse 2s infinite ease-in-out;">
+                    AK
+                  </div>
+                  <div style="position:absolute; bottom:6px; right:10px; font-family:var(--font-mono); font-size:0.65rem; color:rgba(255,255,255,0.7);">
+                    ROLE: ATTACKING WINGER / PLAYMAKER
+                  </div>
+                </div>
+
+                <div style="display:grid; grid-template-columns:1fr 1fr; gap:0.5rem; text-align:center;">
+                  <div style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); border-radius:8px; padding:0.6rem;">
+                    <div style="font-family:var(--font-display); font-size:1.1rem; font-weight:700; color:var(--ember);">District Level</div>
+                    <div style="font-family:var(--font-mono); font-size:0.65rem; color:var(--ash);">Competitive Play</div>
+                  </div>
+                  <div style="background:rgba(16,185,129,0.08); border:1px solid rgba(16,185,129,0.3); border-radius:8px; padding:0.6rem;">
+                    <div style="font-family:var(--font-display); font-size:1.1rem; font-weight:700; color:#34d399;">State Team</div>
+                    <div style="font-family:var(--font-mono); font-size:0.65rem; color:var(--ash);">Official Selection</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5: Video Editing // Visual Pacing & Motion Storytelling -->
+          <div class="project-card">
+            <div class="card-ambient-cyan"></div>
+            <div class="card-ambient-pink"></div>
+            
+            <div class="project-grid-inner">
+              <div>
+                <div class="project-tagline-top">Cinematic Aesthetics &amp; Motion Design</div>
+                <h3 class="project-title-large">Video Editing &amp; Storytelling</h3>
+                <p class="project-desc-body">
+                  Crafting visual narratives through precision pacing, audio-sync rhythm, dynamic speed ramps, and color grading. Video editing builds an acute mastery over viewer retention, transition timing, and micro-flow—principles directly applied to creating engaging, motion-driven digital web experiences.
+                </p>
+                <div class="project-tags-list">
+                  <span class="tag-pill-sm">VISUAL STORYTELLING</span>
+                  <span class="tag-pill-sm">BEAT-SYNC CUTS</span>
+                  <span class="tag-pill-sm">MULTITRACK TIMELINE</span>
+                  <span class="tag-pill-sm">COLOR GRADING</span>
+                  <span class="tag-pill-sm">MICRO-PACING</span>
+                </div>
+              </div>
+
+              <!-- Right Mockup: Multitrack Motion Timeline Simulation -->
+              <div class="mockup-preview-card">
+                <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid rgba(255,255,255,0.08); padding-bottom:0.75rem; margin-bottom:1rem; font-family:var(--font-mono); font-size:0.75rem; color:var(--ash);">
+                  <span>TIMELINE WORKFLOW // AUDIO-SYNC</span>
+                  <span style="color:#a855f7; font-weight:bold;">MOTION EDIT</span>
+                </div>
+                
+                <div style="display:flex; flex-direction:column; gap:0.5rem; margin-bottom:0.75rem;">
+                  <div style="display:flex; align-items:center; gap:0.5rem; font-family:var(--font-mono); font-size:0.68rem; color:var(--silver);">
+                    <span style="width:35px; color:var(--ash);">V1</span>
+                    <div style="flex:1; height:20px; background:#1e3a8a; border-radius:4px; display:flex; align-items:center; padding:0 0.5rem; color:#bfdbfe; font-size:0.65rem;">
+                      Cut 01: Breakout Football Sprint [Speed Ramp]
+                    </div>
+                  </div>
+                  <div style="display:flex; align-items:center; gap:0.5rem; font-family:var(--font-mono); font-size:0.68rem; color:var(--silver);">
+                    <span style="width:35px; color:var(--ash);">V2</span>
+                    <div style="flex:1; height:20px; background:#6b21a8; border-radius:4px; display:flex; align-items:center; padding:0 0.5rem; color:#f3e8ff; font-size:0.65rem;">
+                      B-Roll: Cinematic Motion Blur &amp; Color Curve
+                    </div>
+                  </div>
+                  <div style="display:flex; align-items:center; gap:0.5rem; font-family:var(--font-mono); font-size:0.68rem; color:var(--silver);">
+                    <span style="width:35px; color:var(--ash);">A1</span>
+                    <div style="flex:1; height:20px; background:#065f46; border-radius:4px; display:flex; align-items:center; padding:0 0.5rem; color:#a7f3d0; font-size:0.65rem;">
+                      Waveform: Beat Drop Synchronized Impact
+                    </div>
+                  </div>
+                </div>
+
+                <div style="font-family:var(--font-mono); font-size:0.7rem; color:var(--ash); display:flex; justify-content:space-between; border-top:1px solid rgba(255,255,255,0.06); padding-top:0.5rem;">
+                  <span>FPS: 60fps ProRes</span>
+                  <span>Audio: 48kHz 24-bit</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 4: WHERE I'VE BEEN (Experience / Journey)
+         ====================================================================== -->
+    <section id="experience">
+      <div class="exp-container">
+        
+        <div style="margin-bottom:3.5rem;">
+          <div style="display:flex; align-items:center; gap:0.5rem; margin-bottom:0.75rem;">
+            <span style="width:32px; height:2px; background:var(--ember); border-radius:999px;"></span>
+            <span style="color:var(--ember); font-size:11px; font-weight:700; letter-spacing:0.25em; text-transform:uppercase; font-family:var(--font-mono);">Experience</span>
+          </div>
+          <h2 style="font-family:var(--font-display); font-size:clamp(2rem, 5vw, 3.8rem); font-weight:800; color:#fff; line-height:1.1; letter-spacing:-0.03em;">
+            Where I've Been
+          </h2>
+          <p style="color:var(--ash); font-size:1rem; margin-top:0.75rem; max-width:550px;">
+            My computational evolution through scholastic excellence and self-directed engineering.
+          </p>
+        </div>
+
+        <div>
+          <!-- Item 1 -->
+          <div class="exp-item">
+            <div class="exp-date-col">
+              <span class="exp-date">2026 — Present</span>
+              <span class="exp-org">Self-Directed Learning</span>
+            </div>
+            <div class="exp-content-col">
+              <h3 class="exp-role-title">Computer Science &amp; AI Explorer</h3>
+              <p class="exp-role-desc">
+                Building modern web interfaces, exploring full-stack engineering paradigms, and investigating modern Machine Learning architectures and LLM parameters.
+              </p>
+              <ul class="exp-bullets">
+                <li><span class="exp-bullet-arrow">▸</span><span>Mastering semantic HTML5, modern CSS glassmorphism &amp; reactive vanilla JS</span></li>
+                <li><span class="exp-bullet-arrow">▸</span><span>Practicing Linux CLI navigation, bash pipelines, and developer environments</span></li>
+                <li><span class="exp-bullet-arrow">▸</span><span>Studying neural networks, loss functions, and emergent agentic behaviors</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="exp-item">
+            <div class="exp-date-col">
+              <span class="exp-date">2024 — 2026</span>
+              <span class="exp-org">ISC School Cohort</span>
+            </div>
+            <div class="exp-content-col">
+              <h3 class="exp-role-title">Higher Secondary Scholar (Class 12th)</h3>
+              <p class="exp-role-desc">
+                Achieved 91.25% Aggregate with a distinction of 98 in Computer Science. Focused on rigorous Java software engineering.
+              </p>
+              <ul class="exp-bullets">
+                <li><span class="exp-bullet-arrow">▸</span><span>98/100 score in ISC Computer Science examination</span></li>
+                <li><span class="exp-bullet-arrow">▸</span><span>Specialized in Java Object-Oriented Design, Recursion &amp; Binary Trees</span></li>
+                <li><span class="exp-bullet-arrow">▸</span><span>Competed in school mathematics and logic challenges</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="exp-item">
+            <div class="exp-date-col">
+              <span class="exp-date">2022 — 2024</span>
+              <span class="exp-org">ICSE School Cohort</span>
+            </div>
+            <div class="exp-content-col">
+              <h3 class="exp-role-title">Secondary School Scholar (Class 10th)</h3>
+              <p class="exp-role-desc">
+                Achieved 89.80% Aggregate with 96 in Computer Science. Built early coding foundations and captained football team.
+              </p>
+              <ul class="exp-bullets">
+                <li><span class="exp-bullet-arrow">▸</span><span>96/100 score in ICSE Computer Science examination</span></li>
+                <li><span class="exp-bullet-arrow">▸</span><span>Developed strong grasp of matrix operations and structured control flow</span></li>
+                <li><span class="exp-bullet-arrow">▸</span><span>Active varsity football player in regional inter-school tournaments</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 5: INTERACTIVE LINUX CLI TERMINAL
+         ====================================================================== -->
+    <section id="terminal" style="padding:4rem 1.5rem 6rem; max-width:1050px; margin:0 auto;">
+      <div style="text-align:center; margin-bottom:2.5rem;">
+        <span style="color:var(--ember); font-family:var(--font-mono); font-size:11px; font-weight:700; letter-spacing:0.25em; text-transform:uppercase;">Interactive Shell</span>
+        <h2 style="font-family:var(--font-display); font-size:clamp(1.8rem, 4vw, 3rem); font-weight:800; color:#fff; margin-top:0.5rem;">
+          Ahad-CLI v1.0 [Arch Linux]
+        </h2>
+        <p style="color:var(--ash); font-size:0.9rem; margin-top:0.4rem;">
+          Direct terminal emulator. Try typing <code>whoami</code>, <code>academics</code>, <code>skills</code>, <code>football</code>, or <code>help</code>.
+        </p>
+      </div>
+
+      <!-- Quick Shortcut Pills -->
+      <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:0.5rem; margin-bottom:1rem;">
+        <button class="cmd-pill" data-cmd="whoami">whoami</button>
+        <button class="cmd-pill" data-cmd="academics">academics</button>
+        <button class="cmd-pill" data-cmd="skills">skills</button>
+        <button class="cmd-pill" data-cmd="roadmap">roadmap</button>
+        <button class="cmd-pill" data-cmd="football">football</button>
+        <button class="cmd-pill" data-cmd="math">math</button>
+        <button class="cmd-pill" data-cmd="clear">clear</button>
+      </div>
+
+      <div style="background:#0b0b12; border:1px solid rgba(255,255,255,0.1); border-radius:18px; overflow:hidden; box-shadow:0 25px 60px rgba(0,0,0,0.8);">
+        <div style="background:#13131e; padding:0.85rem 1.25rem; display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid rgba(255,255,255,0.06);">
+          <div style="display:flex; gap:0.4rem;">
+            <span style="width:11px; height:11px; border-radius:50%; background:#ef4444; display:inline-block;"></span>
+            <span style="width:11px; height:11px; border-radius:50%; background:#f59e0b; display:inline-block;"></span>
+            <span style="width:11px; height:11px; border-radius:50%; background:#10b981; display:inline-block;"></span>
+          </div>
+          <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--ash);">ahad@archlinux: ~ (bash)</span>
+          <span style="font-family:var(--font-mono); font-size:0.7rem; color:var(--silver);">UTF-8</span>
+        </div>
+
+        <div id="terminal-body" style="padding:1.5rem; min-height:300px; max-height:450px; overflow-y:auto; font-family:var(--font-mono); font-size:0.84rem; line-height:1.6; color:#dedee8;">
+          <div class="term-output">
+            <span style="color:var(--ember); font-weight:bold;">Ahad-CLI Interactive Shell Ready.</span><br>
+            Type <span style="color:#38bdf8;">'help'</span> to see all available commands, or click the badges above.<br>
+            Try <span style="color:var(--ember);">'football'</span> for penalty shootout minigame, or <span style="color:var(--ember);">'academics'</span> for board scores!
+          </div>
+
+          <div class="term-input-row" style="display:flex; align-items:center; gap:0.5rem; margin-top:0.75rem;">
+            <span style="color:var(--ember); font-weight:bold;">ahad@portfolio:</span><span style="color:#38bdf8;">~$</span>
+            <input type="text" id="term-input" style="flex:1; background:transparent; border:none; outline:none; font-family:var(--font-mono); font-size:0.84rem; color:#fff;" placeholder="Type command here..." spellcheck="false" autocomplete="off">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         SECTION 6: CONTACT // LET'S CREATE SOMETHING EXTRAORDINARY
+         ====================================================================== -->
+    <section id="contact">
+      <div class="contact-ambient-radial" aria-hidden="true"></div>
+
+      <div style="text-align:center; margin-bottom:3.5rem;">
+        <span style="color:var(--ember); font-family:var(--font-mono); font-size:11px; font-weight:700; letter-spacing:0.25em; text-transform:uppercase;">Get in Touch</span>
+        <h2 style="font-family:var(--font-display); font-size:clamp(2rem, 5vw, 3.8rem); font-weight:800; color:#fff; line-height:1.15; margin-top:0.5rem;">
+          Let's Create Something Extraordinary
+        </h2>
+        <p style="color:var(--ash); font-size:1rem; margin-top:0.75rem; max-width:600px; margin-left:auto; margin-right:auto;">
+          Have an algorithmic problem, a collaborative project, or an inquiry regarding AI parameters? Send a message and let's talk.
+        </p>
+      </div>
+
+      <div class="contact-grid-wrap">
+        
+        <!-- Left: Contact Details Card -->
+        <div class="glass-card">
+          <h3 style="font-family:var(--font-display); font-size:1.4rem; font-weight:700; color:#fff; margin-bottom:1.5rem;">
+            Contact Details
+          </h3>
+
+          <div class="contact-info-list">
+            <div class="contact-info-item">
+              <span class="contact-icon-circle">✉️</span>
+              <div>
+                <p style="font-size:0.75rem; color:var(--ash); font-family:var(--font-mono); text-transform:uppercase; margin-bottom:0.25rem;">Email</p>
+                <a href="mailto:ahadkhan.dev@gmail.com" style="color:#ffffff; text-decoration:none; font-weight:500; font-size:0.95rem;">
+                  ahadkhan.dev@gmail.com
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <span class="contact-icon-circle">🎓</span>
+              <div>
+                <p style="font-size:0.75rem; color:var(--ash); font-family:var(--font-mono); text-transform:uppercase; margin-bottom:0.25rem;">Academics</p>
+                <p style="color:#ffffff; font-weight:500; font-size:0.95rem;">ISC Class 12th • 98 in CS</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <span class="contact-icon-circle">📍</span>
+              <div>
+                <p style="font-size:0.75rem; color:var(--ash); font-family:var(--font-mono); text-transform:uppercase; margin-bottom:0.25rem;">Location</p>
+                <p style="color:#ffffff; font-weight:500; font-size:0.95rem;">India • Available Worldwide</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Message Form -->
+        <div class="glass-card">
+          <form id="portfolio-form">
+            <div style="margin-bottom:1.25rem;">
+              <label for="f-name" style="font-family:var(--font-mono); font-size:0.75rem; color:var(--ash); text-transform:uppercase;">Your Name</label>
+              <input type="text" id="f-name" class="contact-input-field" placeholder="e.g. Alan Turing" required>
+            </div>
+
+            <div style="margin-bottom:1.25rem;">
+              <label for="f-email" style="font-family:var(--font-mono); font-size:0.75rem; color:var(--ash); text-transform:uppercase;">Your Email</label>
+              <input type="email" id="f-email" class="contact-input-field" placeholder="alan@domain.com" required>
+            </div>
+
+            <div style="margin-bottom:1.5rem;">
+              <label for="f-msg" style="font-family:var(--font-mono); font-size:0.75rem; color:var(--ash); text-transform:uppercase;">Message</label>
+              <textarea id="f-msg" class="contact-input-field" rows="4" placeholder="Tell me about your idea, project, or question..." required style="resize:vertical;"></textarea>
+            </div>
+
+            <button type="submit" class="btn-ember-primary" style="width:100%; justify-content:center;">
+              Send Message →
+            </button>
+          </form>
+
+          <div id="contact-success" style="display:none; text-align:center; padding:2.5rem 1rem;">
+            <div style="font-size:2.5rem; margin-bottom:0.5rem;">🔥</div>
+            <h4 style="font-family:var(--font-display); font-size:1.3rem; color:#fff;">Message Sent!</h4>
+            <p style="color:var(--ash); font-size:0.85rem; margin-top:0.35rem;">Thank you for reaching out. I'll get back to you promptly.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       FOOTER
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        © <span id="current-year">2026</span> <strong>Ahad Khan</strong>. All Rights Reserved.
+      </div>
+      <div>
+        ISC Class 12 Scholar (98 CS) • Python • Java • Linux CLI
+      </div>
+      <div>
+        <a href="#hero" style="color:var(--ember); text-decoration:none;">Back to Top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/fluid-shader.js"></script>
+  <script src="js/text-pressure.js"></script>
+  <script src="js/scroll-expand.js"></script>
+  <script src="js/staggered-menu.js"></script>
+  <script src="js/terminal.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

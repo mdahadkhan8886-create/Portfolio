@@ -1,0 +1,25 @@
+{
+  "name": "ahad-khan-portfolio",
+  "version": "1.0.0",
+  "description": "Interactive, high-end developer portfolio for Ahad Khan. Showcases ISC Board academic milestones (98/100 CS), Python & Java mastery, Linux CLI, Competitive Math, Video Editing, and AI parameters.",
+  "scripts": {
+    "start": "npx serve -l 3000 .",
+    "dev": "npx serve -l 3000 .",
+    "preview": "open index.html"
+  },
+  "keywords": [
+    "portfolio",
+    "developer",
+    "java",
+    "python",
+    "linux",
+    "interactive",
+    "dark-mode",
+    "threejs",
+    "canvas",
+    "creative-technologist"
+  ],
+  "author": "Ahad Khan",
+  "license": "MIT"
+}
+
