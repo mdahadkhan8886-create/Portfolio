@@ -120,7 +120,7 @@ Type: <span style="color:var(--accent-orange)">math 19</span> to submit your ans
 
     contact: `<span style="color:var(--accent-cyan); font-weight:bold;">GET IN TOUCH // AHAD KHAN</span>
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  • Email   : <a href="mailto:ahadkhan.dev@gmail.com" style="color:var(--accent-orange)">ahadkhan.dev@gmail.com</a>
+  • Email   : <a href="mailto:mdahadkhan8886@gmail.com" style="color:var(--accent-orange)">mdahadkhan8886@gmail.com</a>
   • GitHub  : <a href="https://github.com" target="_blank" style="color:var(--accent-orange)">github.com/ahadkhan</a>
   • LinkedIn: <a href="https://linkedin.com" target="_blank" style="color:var(--accent-orange)">linkedin.com/in/ahadkhan</a>
   • Open for: Collaborative projects, hackathons & research inquiries`,
